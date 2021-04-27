@@ -16,7 +16,7 @@ $('.search-button').on('click', function () {
   
         $.ajax({
   
-          url : 'https://www.omdbapi.com/?apikey=a9dbbaaf&i='+$(this).data('imdbid')+'/',
+          url : "https://www.omdbapi.com/?apikey=a9dbbaaf&i="+$(this).data('imdbid'),
           success : m => {
 
             const details= moviedetails(m)
