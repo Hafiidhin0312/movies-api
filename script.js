@@ -67,24 +67,24 @@ function moviecards(m) {
  }
   
   
-  // function moviedetails(m) {  
-  //    return ` <div class="container-fluid"> 
-  //             <div class="row">
-  //               <div class="col-sm-12 col-md-4 col-lg-3">
+  function moviedetails(m) {  
+     return ` <div class="container-fluid"> 
+              <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-3">
     
-  //               <img src="${m.Poster}" class="img-fluid">
+                <img src="${m.Poster}" class="img-fluid">
     
-  //               </div>
+                </div>
     
-  //               <div class="col-md">
-  //                 <ul class="list-group">
-  //                   <li class="list-group-item"><h4>${m.Title}=="N/A"?"-":${m.Title}</h4></li>
-  //                   <li class="list-group-item"><strong>Director :</strong>${m.Director}</li>
-  //                   <li class="list-group-item"><strong>Aktor :</strong>${m.Actors}=="N/A"?"-":${m.Actors}</li>
-  //                   <li class="list-group-item"><strong>Writer :</strong>${m.Writer}</li>
-  //                   <li class="list-group-item"><strong>Plot :</strong><br>${m.Plot}</li>
-  //                 </ul>
-  //               </div>
-  //             </div>
-  //           </div>`
-  //   }
+                <div class="col-md">
+                  <ul class="list-group">
+                    <li class="list-group-item"><h4>${m.Title}=="N/A"?"-":${m.Title}</h4></li>
+                    <li class="list-group-item"><strong>Director :</strong>${m.Director}</li>
+                    <li class="list-group-item"><strong>Aktor :</strong>${m.Actors}=="N/A"?"-":${m.Actors}</li>
+                    <li class="list-group-item"><strong>Writer :</strong>${m.Writer}</li>
+                    <li class="list-group-item"><strong>Plot :</strong><br>${m.Plot}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>`
+    }
