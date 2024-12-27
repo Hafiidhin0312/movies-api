@@ -80,7 +80,7 @@ function moviecards(m) {
                   <ul class="list-group">
                     <li class="list-group-item"><h4>${m.Title}=="N/A"?"-":${m.Title}</h4></li>
                     <li class="list-group-item"><strong>Director :</strong>${m.Director}</li>
-                    <li class="list-group-item"><strong>Aktor :</strong>${m.Actors}</li>
+                    <li class="list-group-item"><strong>Aktor :</strong>${m.Actors}=="N/A"?"-":${m.Actors}</li>
                     <li class="list-group-item"><strong>Writer :</strong>${m.Writer}</li>
                     <li class="list-group-item"><strong>Plot :</strong><br>${m.Plot}</li>
                   </ul>
